@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "first-project"
+		},
+		{
+			"path": "shirts"
+		},
+		{
+			"path": "loan"
+		},
+		{
+			"path": "collections"
+		}
+	],
+	"settings": {}
+}
