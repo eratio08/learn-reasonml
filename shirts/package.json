@@ -1,0 +1,23 @@
+{
+  "name": "shirts",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "build:web": "npm run clean:dist && parcel build src/index.html --public-url ./ --no-minify",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "clean:dist": "rm dist/*"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.2.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "bs-webapi": "^0.15.9"
+  }
+}
