@@ -11,6 +11,12 @@
 		},
 		{
 			"path": "collections"
+		},
+		{
+			"path": "collections-app"
+		},
+		{
+			"path": "dew-point"
 		}
 	],
 	"settings": {}
